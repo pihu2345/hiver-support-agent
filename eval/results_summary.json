@@ -1,0 +1,36 @@
+{
+  "classification": {
+    "trivial_baseline": {
+      "accuracy": 0.12,
+      "macro_f1": 0.031
+    },
+    "keyword_baseline": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "ml_classifier": {
+      "accuracy": 0.84,
+      "macro_f1": 0.865
+    },
+    "llm_classifier_or_ml_fallback": {
+      "accuracy": 0.84,
+      "macro_f1": 0.865
+    }
+  },
+  "escalation": {
+    "precision": 1.0,
+    "recall": 0.789,
+    "f1": 0.882,
+    "tp": 15,
+    "fp": 0,
+    "fn": 4,
+    "tn": 181
+  },
+  "reply_quality": {
+    "grounded": 5.0,
+    "relevant": 4.0,
+    "actionable": 4.8,
+    "tone": 4.8
+  },
+  "n_golden": 200
+}
